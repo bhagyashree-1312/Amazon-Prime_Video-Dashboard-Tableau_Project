@@ -1,57 +1,56 @@
 # Amazon Prime Video Content Analysis 
-Author - Bhagyashree Pise
+~ Author : Bhagyashree Pise
 
-##  Project Overview
-This project analyzes **Amazon Prime Video’s Movies and TV Shows catalog** using **Tableau Public**.  
-The dashboard provides insights into content distribution across countries, genres, release years, and content types, along with detailed information for individual titles.
+## Overview
+This project presents an interactive Tableau dashboard that analyzes the content available on Amazon Prime Video, covering both Movies and TV Shows. The dashboard provides insights into content distribution across countries, genres, release years, and content types. 
+The goal of this project is to explore trends, identify top-performing regions and genres, and present the findings in a clean, visually engaging manner. 
 
-The goal of this project is to demonstrate **data visualization, storytelling, and dashboard design skills** using Tableau.
+### Dashboard Highlights
+- Key Metrics
+  Total Titles: 9,668
+  Total Movies: 7,814
+  Total TV Shows: 1,854
+  Total Countries: 86
 
-##  Dashboard Features
-###  Shows by Country
-- Interactive world map showing the **number of titles available per country**
-- Color intensity represents total titles
-- Tooltip includes:
-  - Country name  
-  - Total number of titles  
-  - Percent of total content
+### Visualizations Included
+1) Shows by Country
+- World map showing the number of titles available per country 
+- Highlights global content distribution on Amazon Prime Video
 
-###  Top 10 Genres
-- Horizontal bar chart displaying the **top 10 genres by number of titles**
-- Sorted in descending order for easy comparison
+2) Top 5 Countries
+-Bar chart displaying countries with the highest number of titles
+- Includes: United States, India, United Kingdom, Canada, and Italy
 
-###  Distribution by Type
-- Donut chart showing content split between:
-  - **Movies**
-  - **TV Shows**
-- Displays both **percentage share** and category labels
+3) Top 10 Genres
+- Horizontal bar chart of the most popular genres by title count
+- Drama, Action, and Comedy dominate the platform
 
-###  Shows by Release Year & Type
-- Area chart visualizing growth trends over time
-- Split by **Movie vs TV Show**
-- Highlights rapid content expansion in recent years
+4) Distribution by Type 
+- Donut chart comparing Movies vs TV Shows
+- Movies account for approximately 80.8% of total content
 
-###  Title-Level Details
+5) Shows by Release Year & Type
+- Area chart showing growth trends over time
+- Clearly highlights the rapid content growth in recent years
+
+6) Title Description Panel
 - Interactive title selector
-- Displays:
-  - Cast
-  - Release year
-  - Duration
-  - Genre
-  - Type
-  - Description
+- Displays detailed descriptions for selected movies or TV shows
 
-##  Tools & Technologies
-- **Tableau Public (Desktop Edition)**
-- **Dataset:** Amazon Prime Video Titles (CSV)
+## Tools & Technologies
+Tableau Public / Tableau Desktop Public Edition
+Dataset: Amazon Prime Video titles metadata
+Map Source: Mapbox / OpenStreetMap 
 
-##  Project Files
-- `Amazon_Prime_Dashboard.twb` – Tableau workbook
-- `amazon_prime_titles.csv` – Source dataset
-- `README.md` – Project documentation
+## Key Insights 
+The United States and India contribute the largest share of content
+Drama is the most common genre on the platform
+Amazon Prime Video content has grown significantly after 2010 
+Movies dominate the catalog compared to TV Shows 
 
-##  Key Insights
-- Movies dominate the Amazon Prime catalog (~80%)
-- Drama is the most common genre
-- Content availability varies significantly by country
-- Strong growth in content releases after 2000
+### How to Use
+Open the Tableau workbook (.twb / .twbx) in Tableau Public or Tableau Desktop
+Use filters and interactive elements to explore different insights
+Hover over visuals for detailed tooltips 
+
+**Thank you !!!** 
