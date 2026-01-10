@@ -10,7 +10,7 @@ The goal of this project is to explore trends, identify top-performing regions a
   - Total titles -9668
   - Total Movies -7814
   - Total TV Shows -1854
-  - Total Countries -86 
+  - Total Countries - 29 
 
 ### Visualizations Included
 **1) Shows by Country** 
